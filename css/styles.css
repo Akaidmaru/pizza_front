@@ -1,0 +1,114 @@
+/* Resetting styles */
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Setting bg color for nav bar*/
+nav {
+    background-color: #222;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav img {
+    height: 80px;
+    padding: 10px;
+}
+
+/* Class menu in nav-bar*/
+.menu-top {
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+}
+
+.menu-top li {
+    padding-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Setting delivery class with image*/
+section {
+    display: flex;
+    width: 490px;
+    height: 350px;
+    padding: 25px;
+    margin: 25px 15px;
+    box-sizing: border-box;
+}
+
+.delivery {
+    background-image: url("../img/delivery.jpg");
+    background-size: cover;
+}
+
+.red {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.white {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.podium {
+    display: flex;
+    justify-items: flex-end;
+}
+
+.inside-podium {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin: 25px 15px;
+}
+
+.podium img {
+    height: 129px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.menu li{
+    color: white;
+    padding: 5px;
+}
+
+footer .logo {
+    padding-right: 20px;
+}
